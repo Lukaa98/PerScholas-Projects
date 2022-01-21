@@ -1,10 +1,10 @@
-package net.java.springboot.repository;
+package net.java.springboot.Luka.Shop.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import net.java.springboot.model.User;
+import net.java.springboot.Luka.Shop.model.User;
 
 public interface UserRepository  extends JpaRepository<User, Long>
 					// User is entity class. and Long an ID

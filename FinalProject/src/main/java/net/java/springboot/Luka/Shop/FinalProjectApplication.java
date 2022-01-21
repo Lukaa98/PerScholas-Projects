@@ -1,4 +1,4 @@
-package net.java.springboot;
+package net.java.springboot.Luka.Shop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

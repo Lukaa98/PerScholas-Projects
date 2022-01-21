@@ -1,4 +1,4 @@
-package net.java.springboot.SecurityConfig;
+package net.java.springboot.Luka.Shop.SecurityConfig;
 
 import javax.sql.DataSource;
 
@@ -13,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import net.java.springboot.service.CustomUserDetailsService;
+import net.java.springboot.Luka.Shop.service.CustomUserDetailsService;
  
 @Configuration
 @EnableWebSecurity

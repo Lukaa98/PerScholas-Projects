@@ -1,4 +1,4 @@
-package net.java.springboot.service;
+package net.java.springboot.Luka.Shop.service;
 
 
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import net.java.springboot.model.Category;
-import net.java.springboot.repository.CategoryRepository;
+import net.java.springboot.Luka.Shop.model.Category;
+import net.java.springboot.Luka.Shop.repository.CategoryRepository;
 //Business service
 @Service
 public class CategoryService 

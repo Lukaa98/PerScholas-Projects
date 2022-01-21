@@ -1,11 +1,11 @@
-package net.java.springboot.Global;
+package net.java.springboot.Luka.Shop.Global;
 
 import java.util.Collection;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import net.java.springboot.model.User;
+import net.java.springboot.Luka.Shop.model.User;
  
 public class CustomUserDetails implements UserDetails {
  

@@ -1,4 +1,4 @@
-package net.java.springboot.DataTransferObject.DTO;
+package net.java.springboot.Luka.Shop.DataTransferObject.DTO;
 
 
 public class ProductDTO {

@@ -1,13 +1,13 @@
-package net.java.springboot.service;
+package net.java.springboot.Luka.Shop.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import net.java.springboot.Global.CustomUserDetails;
-import net.java.springboot.model.User;
-import net.java.springboot.repository.UserRepository;
+import net.java.springboot.Luka.Shop.Global.CustomUserDetails;
+import net.java.springboot.Luka.Shop.model.User;
+import net.java.springboot.Luka.Shop.repository.UserRepository;
  
 public class CustomUserDetailsService implements UserDetailsService {
  // to implement method LoadUserByUserName

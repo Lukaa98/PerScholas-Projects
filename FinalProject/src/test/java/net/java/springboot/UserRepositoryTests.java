@@ -10,8 +10,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.annotation.Rollback;
 
-import net.java.springboot.model.User;
-import net.java.springboot.repository.UserRepository;
+import net.java.springboot.Luka.Shop.model.User;
+import net.java.springboot.Luka.Shop.repository.UserRepository;
  
 @DataJpaTest //this class will be running as JPA test
 @AutoConfigureTestDatabase(replace = Replace.NONE) //to use real database not in memory database

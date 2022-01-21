@@ -1,32 +1,14 @@
-package net.java.springboot.controller;
+package net.java.springboot.Luka.Shop.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.multipart.MultipartFile;
 
-
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
-
-
-import java.util.Optional;
-
-import net.java.springboot.DataTransferObject.DTO.ProductDTO;
-import net.java.springboot.Global.Global;
-import net.java.springboot.model.Category;
-import net.java.springboot.model.Product;
-import net.java.springboot.service.CategoryService;
-import net.java.springboot.service.ProductService;
+import net.java.springboot.Luka.Shop.Global.Global;
+import net.java.springboot.Luka.Shop.service.CategoryService;
+import net.java.springboot.Luka.Shop.service.ProductService;
 
 
 
@@ -37,18 +19,6 @@ public class HomeController {
 	@Autowired
 	private ProductService productService;
 
-	
-	/*
-	@GetMapping ({"/" , "/home"})
-	public String home(Model model)
-	{
-		
-		model.addAttribute("cartCount", Global.cart.size());
-
-		return "shop";
-
-	}
-	*/
 	
 	
 	@GetMapping ({"/" , "/home", "/shop"})

@@ -1,4 +1,4 @@
-package net.java.springboot.controller;
+package net.java.springboot.Luka.Shop.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-
+import net.java.springboot.Luka.Shop.DataTransferObject.DTO.ProductDTO;
+import net.java.springboot.Luka.Shop.model.Category;
+import net.java.springboot.Luka.Shop.model.Product;
+import net.java.springboot.Luka.Shop.service.CategoryService;
+import net.java.springboot.Luka.Shop.service.ProductService;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,12 +24,6 @@ import java.nio.file.Paths;
 
 
 import java.util.Optional;
-
-import net.java.springboot.DataTransferObject.DTO.ProductDTO;
-import net.java.springboot.model.Category;
-import net.java.springboot.model.Product;
-import net.java.springboot.service.CategoryService;
-import net.java.springboot.service.ProductService;
 
 @Controller
 public class AdminController {

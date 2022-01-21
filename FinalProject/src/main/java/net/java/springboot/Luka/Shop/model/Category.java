@@ -1,4 +1,4 @@
-package net.java.springboot.model;
+package net.java.springboot.Luka.Shop.model;
 
 import javax.persistence.Id;
 import javax.persistence.Table;

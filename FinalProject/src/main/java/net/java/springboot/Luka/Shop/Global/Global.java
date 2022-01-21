@@ -1,9 +1,9 @@
-package net.java.springboot.Global;
+package net.java.springboot.Luka.Shop.Global;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.java.springboot.model.Product;
+import net.java.springboot.Luka.Shop.model.Product;
 
 public class Global {
 

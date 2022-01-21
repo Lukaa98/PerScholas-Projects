@@ -1,6 +1,4 @@
-package net.java.springboot.controller;
-
-import java.util.List;
+package net.java.springboot.Luka.Shop.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -9,8 +7,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import net.java.springboot.model.User;
-import net.java.springboot.repository.UserRepository;
+import net.java.springboot.Luka.Shop.model.User;
+import net.java.springboot.Luka.Shop.repository.UserRepository;
 
 @Controller
 public class UserController 
