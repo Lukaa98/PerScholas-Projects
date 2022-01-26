@@ -10,7 +10,7 @@ as well as spring security</h3>
 
 
 * Project completed during Per Scholas training.
-<h4 align="center">Technologies used to create this application.
+<h4>Technologies used to create this application.
 
 * <h3>Spring as a backend
 * Thymeleaf as a frontend
