@@ -11,6 +11,6 @@ as well as spring security. Project was created during Per Scholas training</h4>
 
 <h4 align="center">Technologies used to create this application.</h4>
 
-* <h3>Spring as a backend</h3>
-* <h3>Thymeleaf as a frontend</h3>
-* <h3>MySQL as a databases.</h3>
+* Spring Boot as a backend.
+* Thymeleaf as a frontend.
+* MySQL as a databases.
