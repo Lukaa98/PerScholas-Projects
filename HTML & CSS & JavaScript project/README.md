@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Luka</h1>
 <h3 align="center">This is E commerce project demonstrates CRUD operations,
-and spring security. Project was created during Per Scholas training</h3>
+and spring security. Project was created during   Per Scholas training</h3>
 
 * To access the admin page go to http://localhost:8081/admin where it is possible to create,  update and delete category as well as create, delete and update product. product and category have a ManyToOne relationship.
 
