@@ -3,7 +3,7 @@
 and spring security. </h3>
 <h3 align="center">Project was created during Per Scholas training</h3>
 
-* To access the admin page go to http://localhost:8081/admin where it is possible to create,  update and delete Categories as well as create, delete and update Products. Product and Category have a ManyToOne relationship.
+* To access the admin page go to http://localhost:8081/admin where it is possible to create,  update and delete Categories as well as create, delete and update Products. Category and Product have a ManyToOne relationship.
 
 * On the user page that can be accessed by http://localhost:8081 the user is able to see products and Categories that were added by the admin. user can filter all Categories to access specific products within that category, add them to the cart, and then checkout.
 
