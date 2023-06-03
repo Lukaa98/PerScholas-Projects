@@ -56,15 +56,10 @@ jobs:
           name: java-app
 
       - name: Azure Login
-        uses: azure/login@v1
+        uses: azure/login-action@v1
         with:
           creds: |
-            {
-              "clientId": "5a74f6b1-a40f-409d-9866-9408837bedb6",
-              "clientSecret": "LXF8Q~C7KVcoNgXTw0GPD_FUMpxFky8K_ZY~XduQ",
-              "tenantId": "59625368-734a-4566-8dc1-0b9cd80ae4b2",
-              "objectId": "d4197a4d-927d-4177-9ba6-19d3a4deab56"
-            }
+            ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
