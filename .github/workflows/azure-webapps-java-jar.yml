@@ -23,6 +23,8 @@ jobs:
         with:
           repository: PerScholas-Projects/FinalProject
           path: FinalProject
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
           node-version: '16'
 
       - name: Set up Java version
