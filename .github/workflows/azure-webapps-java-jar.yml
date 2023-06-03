@@ -3,7 +3,7 @@ name: Build and deploy JAR app to Azure Web App
 on:
   push:
     branches:
-      - main
+      - FinalProject
   workflow_dispatch:
 
 env:
@@ -22,16 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          repository: Lukaa98/PerScholas-Projects
-          path: FinalProject
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ssh-strict: true
-          persist-credentials: true
-          clean: true
-          fetch-depth: 1
-          lfs: false
-          submodules: false
-          set-safe-directory: true
+          ref: FinalProject
 
       - name: Set up Java version
         uses: actions/setup-java@v3.0.0
@@ -47,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/FinalProject/target/*.jar'
+          path: '${{ github.workspace }}/target/*.jar'
 
   deploy:
     permissions:
