@@ -23,6 +23,7 @@ jobs:
         with:
           repository: PerScholas-Projects/FinalProject
           path: FinalProject
+          node-version: '16'
 
       - name: Set up Java version
         uses: actions/setup-java@v3.0.0
