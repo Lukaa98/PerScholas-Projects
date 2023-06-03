@@ -21,11 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          repository: PerScholas-Projects/FinalProject
           path: FinalProject
-          ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
-          node-version: '16'
 
       - name: Set up Java version
         uses: actions/setup-java@v3.0.0
@@ -35,6 +31,7 @@ jobs:
           cache: 'maven'
 
       - name: Build with Maven
+        working-directory: FinalProject
         run: mvn clean install
 
       - name: Upload artifact for deployment job
